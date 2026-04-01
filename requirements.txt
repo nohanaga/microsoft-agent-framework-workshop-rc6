@@ -1,0 +1,62 @@
+# Microsoft Agent Framework - Tutorial Requirements
+# ================================================
+# Install all dependencies: pip install -r requirements.txt
+# Or with uv (faster): uv pip install -r requirements.txt
+
+# Core Agent Framework
+agent-framework==1.0.0rc6
+agent-framework-azure-ai==1.0.0rc6
+
+# Optional Agent Framework Extensions
+# agent-framework-devui==1.0.0b260219
+# agent-framework-mem0==1.0.0b260219
+
+# Azure AI & OpenAI
+openai
+azure-ai-agents
+azure-identity
+
+# FastMCP Server (Tutorials 15-20)
+fastmcp
+uvicorn[standard]
+
+# Data Processing & Analysis
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+
+# Type Validation & Models
+pydantic
+
+# Environment Management
+python-dotenv
+
+# Azure SDK Extensions
+azure-core
+azure-storage-blob
+azure-monitor-query
+
+# Development Tools
+jupyter
+jupyterlab
+ipykernel
+notebook
+
+# HTTP & API Tools
+httpx
+requests
+
+# Optional: Testing & Quality (uncomment if needed)
+# pytest
+# pytest-asyncio
+# black
+# ruff
+
+# Optional: OpenTelemetry for Observability (if needed for tracing, etc.)
+opentelemetry-exporter-otlp-proto-grpc
+
+# Optional: Graph Visualization (if needed for agent decision trees, etc.)
+graphviz
